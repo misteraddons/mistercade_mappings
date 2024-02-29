@@ -1,7 +1,7 @@
 # MiSTercade Mapping Updater
 This database can be integrated in MiSTer FPGA by editing the `downloader.ini` file at the root of the SD.
 
-## How to integrate the mappings into MiSTer Downloader:
+## How to Integrate the Mappings into MiSTer Downloader:
 To integrate it in a MiSTer device, add the following section to the end of to the file `downloader.ini` that should be placed at the root of the SD (if it doesn't exist, you may create it for this purpose):
 ```ini
 [misteraddons/mistercade_mappings]
