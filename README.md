@@ -11,4 +11,5 @@ verbose = true
 ```
 After that, run *downloader* or *update_all* as usual. It will try to fetch the files from your newly created database. 
 
+## Free-play Mapping Repository
 If you want to try the `freeplay` mapping repository (start assigned to start and coin), go here: https://github.com/misteraddons/mistercade_freeplay_mappings
