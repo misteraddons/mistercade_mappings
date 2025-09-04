@@ -9,7 +9,7 @@ db_url = https://raw.githubusercontent.com/misteraddons/mistercade_mappings/db/d
 ```
 
 Add this section below if you want to activate the OSD menu by pressing Joystick Down + Start
-```inii
+```ini
 [misteraddons/mistercade-osd-mappings]
 db_url = https://raw.githubusercontent.com/misteraddons/mistercade-osd-mapping/db/db.json.zip
 ```
