@@ -142,42 +142,6 @@ db_url = https://raw.githubusercontent.com/misteraddons/mistercade_v2_nomenu_fre
 ```
 </details>
 
-## MiSTercade V3 (VID_PID `16D0_144F`) &mdash; Pre-release
-
-> **Note:** V3 firmware is currently in pre-release. Mappings are provided for testing purposes.
-
-<details><summary><b>Standard</b> &mdash; menu combo enabled</summary>
-
-```ini
-[misteraddons/mistercade_v3_mappings]
-db_url = https://raw.githubusercontent.com/misteraddons/mistercade_v3_mappings/db/db.json.zip
-```
-</details>
-
-<details><summary><b>Freeplay</b> &mdash; menu combo enabled, start triggers coin</summary>
-
-```ini
-[misteraddons/mistercade_v3_freeplay_mappings]
-db_url = https://raw.githubusercontent.com/misteraddons/mistercade_v3_freeplay_mappings/db/db.json.zip
-```
-</details>
-
-<details><summary><b>No-Menu</b> &mdash; menu combo disabled</summary>
-
-```ini
-[misteraddons/mistercade_v3_nomenu_mappings]
-db_url = https://raw.githubusercontent.com/misteraddons/mistercade_v3_nomenu_mappings/db/db.json.zip
-```
-</details>
-
-<details><summary><b>No-Menu Freeplay</b> &mdash; menu combo disabled, start triggers coin</summary>
-
-```ini
-[misteraddons/mistercade_v3_nomenu_freeplay_mappings]
-db_url = https://raw.githubusercontent.com/misteraddons/mistercade_v3_nomenu_freeplay_mappings/db/db.json.zip
-```
-</details>
-
 ## How to Install
 
 Edit the file `downloader.ini` at the root of your MiSTer SD card (create it if it doesn't exist). Add the snippet for your chosen variant to the end of the file. Then run **downloader** or **update_all**.
