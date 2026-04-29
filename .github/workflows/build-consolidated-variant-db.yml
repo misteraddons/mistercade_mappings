@@ -1,0 +1,36 @@
+name: Build MiSTercade Variant DB
+
+on:
+  workflow_dispatch:
+    inputs:
+      variant_key:
+        description: Source variant key to publish, for example maps-v2-osd
+        required: false
+        type: string
+  push:
+    branches:
+      - "maps-*"
+      - "gamecontrollerdb-*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-db:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build and publish variant database
+        env:
+          INPUT_VARIANT_KEY: ${{ github.event.inputs.variant_key }}
+        run: |
+          variant_key="$INPUT_VARIANT_KEY"
+          if [ -z "$variant_key" ]; then
+            variant_key="$GITHUB_REF_NAME"
+          fi
+          python3 scripts/build_consolidated_variant_db.py \
+            --variant-key "$variant_key" \
+            --publish
