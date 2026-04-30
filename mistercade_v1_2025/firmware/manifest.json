@@ -1,0 +1,34 @@
+{
+  "assets": [
+    {
+      "description": "V1 2025 firmware binary.",
+      "name": "MiSTercade_FW.bin",
+      "sha256": "9802027ff0b8941c9b6dbcbc223f887aaf966259582692eedf3c7383a56b26d5",
+      "size": 4816,
+      "source": "/Users/robot/Documents/GitHub/firmware/mistercade-v1/main-2025/_MiSTercade_V1-2025.zip"
+    },
+    {
+      "description": "Original V1 2025 firmware package.",
+      "name": "_MiSTercade_V1-2025.zip",
+      "sha256": "f1f4753f822eae5c4af632fe05d858fa4f275319f54a2e2e8e7f9f0013fdd1d3",
+      "size": 20065,
+      "source": "/Users/robot/Documents/GitHub/firmware/mistercade-v1/main-2025/_MiSTercade_V1-2025.zip"
+    },
+    {
+      "description": "MiSTer-side HID flasher for V1 firmware.",
+      "name": "hid-flash_MiSTer",
+      "sha256": "064ff721e79eba287b6a010b743d0df7b0f03f44748a096e6a1a9b801c33ebe0",
+      "size": 29884,
+      "source": "/Users/robot/Documents/GitHub/firmware/mistercade-v1/main-2025/_MiSTercade_V1-2025.zip"
+    },
+    {
+      "description": "Local V1 firmware updater script.",
+      "name": "mistercade_firmware_updater-local.sh",
+      "sha256": "977d00e5398880ed03e202ace765830211c967a7d45213df7c25f3f3355d3819",
+      "size": 1547,
+      "source": "/Users/robot/Documents/GitHub/firmware/mistercade-v1/main-2025/_MiSTercade_V1-2025.zip"
+    }
+  ],
+  "generated_by": "scripts/populate_consolidated_branches.py",
+  "hardware": "MiSTercade V1 2025"
+}
